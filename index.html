@@ -31,8 +31,8 @@
   }
 </style>
 
-<body>
-  <main class="max-w-screen-lg mx-auto px-2 font-manrope">
+<body class="">
+  <main class="max-w-screen-lg mx-auto px-2 font-manrope space-y-16">
     <header class="flex my-10 flex-col md:flex-row space-y-4 ">
       <div class="space-y-4">
         <h1 class="text-6xl md:text-7xl text-gray-600 font-semibold">It's good<br>tea time at The<br>The House</h1>
@@ -62,35 +62,121 @@
         </div>
       </div>
     </header>
+
     <!--Featured Products-->
-    <section class="py-10 space-y-4">
+    <section class="space-y-4">
       <h1 class="text-5xl lg:text-6xl font-medium text-gray-700 ">Our Featured Products</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio neque veritatis facilis iste voluptatem
         porro sequi.</p>
 
       <!--Item Cards-->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
         <div class="flex flex-col text-center bg-green-200 shadow-xl rounded-lg p-4">
           <img src="./images/tea-1.png" alt="Tea" class="mb-4">
           <h2 class="text-2xl font-semibold md:font-bold">Milk Tea</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti totam ipsa maiores maxime.</p>
         </div>
         <div class="flex flex-col text-center bg-green-200 shadow-xl rounded-lg p-4">
-          <img src="./images/tea-1.png" alt="Tea" class="mb-4">
-          <h2 class="text-2xl font-semibold md:font-bold">Milk Tea</h2>
+          <img src="./images/tea-2.png" alt="Tea" class="mb-4">
+          <h2 class="text-2xl font-semibold md:font-bold">Black Tea</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti totam ipsa maiores maxime.</p>
         </div>
         <div class="flex flex-col text-center bg-green-200 shadow-xl rounded-lg p-4">
-          <img src="./images/tea-1.png" alt="Tea" class="mb-4">
-          <h2 class="text-2xl font-semibold md:font-bold">Milk Tea</h2>
+          <img src="./images/tea-3.png" alt="Tea" class="mb-4">
+          <h2 class="text-2xl font-semibold md:font-bold">Lemon Tea</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti totam ipsa maiores maxime.</p>
         </div>
         <div class="flex flex-col text-center bg-green-200 shadow-xl rounded-lg p-4">
-          <img src="./images/tea-1.png" alt="Tea" class="mb-4">
-          <h2 class="text-2xl font-semibold md:font-bold">Milk Tea</h2>
+          <img src="./images/tea-4.png" alt="Tea" class="mb-4">
+          <h2 class="text-2xl font-semibold md:font-bold">Black Tea</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti totam ipsa maiores maxime.</p>
         </div>
 
+      </div>
+    </section>
+
+    <!--Fresh Tea Presents-->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div class="grid gap-4 grid-cols-2">
+        <div class=" bg-gradient-to-l from-red-200 to-red-300 rounded-xl"></div>
+        <div class="bg-orange-50 rounded-xl ">
+          <img src="./images/fresh-1.png" class="mx-auto">
+        </div>
+        <div class="bg-gradient-to-tr from-gray-200 to-gray-300 rounded-xl">
+          <img src="./images/fresh-2.png" class="mx-auto">
+        </div>
+        <div class="bg-gradient-to-l from-gray-300 to-gray-200 rounded-xl"></div>
+      </div>
+      <div class="space-y-6">
+        <h1 class="text-5xl lg:text-6xl font-medium text-gray-700">Great Tea, Freshly<br>Presented</h1>
+        <p class="font-medium leading-relaxed">The meaning of gong cha is chanese is to provide the best tea to emperor
+          from all
+          possessions . It
+          represents the
+          highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its
+          custoers because
+          of good words of mouth and unique customized service orginated from Taiwan.</p>
+        <div class="space-y-2">
+          <h2 class="text-2xl font-bold text-gray-700">Unique Teste</h2>
+          <p class="font-medium leading-relaxed">A Unique and different style from other teapots gives a luxurious and
+            minimalist impression.</p>
+          <h2 class="text-2xl font-bold text-gray-700">Premium Quality</h2>
+          <p class="font-medium leading-relaxed">Premium Quality that makes tea more elegant and more durable when you
+            use it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Super Clients-->
+    <section class="p-10 rounded-lg bg-gradient-to-l from-[#FF0000] to-[#FF8938] grid lg:grid-cols-2 gap-10">
+      <div class="space-y-6 lg:flex flex-col justify-center w-5/6">
+        <h1 class="text-5xl lg:text-6xl font-medium text-gray-700 capitalize">Meet our super clients</h1>
+        <p class="leading-relaxed font-medium">There are many variations of passages of Lorem Ipsum available, but the
+          majority have
+          suffered alteration in
+          some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button class="bg-white text-amber-500 py-2 px-4 rounded-lg font-medium text-xl w-32">Show All</button>
+      </div>
+
+      <!--Review Point-->
+      <div class="relative space-y-6">
+        <div class="relative bg-white text-black rounded-lg p-8 space-y-4 opacity-50 ">
+          <img src="./images/client.png" alt="Client" class="absolute -top-4 -left-4">
+          <p class="leading-relaxed tracking-wide">We are providing the best and suitable home insurance services for
+            the people who
+            are interested to
+            treatment</p>
+          <div>
+            <h2 class="text-2xl font-medium">Ilham Yuda</h2>
+            <p>Businessman</p>
+          </div>
+        </div>
+        <div class="relative bg-white text-black rounded-lg p-8 space-y-4 opacity-50">
+          <img src="./images/client.png" alt="Client" class="absolute -top-4 -left-4">
+          <p class="leading-relaxed tracking-wide">We are providing the best and suitable home insurance services for
+            the people who
+            are interested to
+            treatment</p>
+          <div>
+            <h2 class="text-2xl font-medium">Doland Trump</h2>
+            <p>Entrepreneur</p>
+          </div>
+        </div>
+
+        <!--Middle Card-->
+        <div class="absolute top-20 -left-4 right-4 md:-left-8 md:right-8 lg:-left-16 lg:right-16 shadow-2xl">
+          <div class="relative   bg-white text-black rounded-lg p-8 space-y-4 ">
+            <img src="./images/bill Gates.jpg" alt="Client" class="absolute -top-4 -left-4 w-20 h-20 rounded-full">
+            <p class="leading-relaxed tracking-wide">We are providing the best and suitable home insurance services for
+              the people who
+              are interested to
+              treatment</p>
+            <div>
+              <h2 class="text-2xl font-medium">Bill Gates</h2>
+              <p>Businessman</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
